@@ -1,10 +1,18 @@
+#Problema #2 // utiliando el metodo por Automatas Finitos Deterministas (AFD)
+#se desarrollo basandonos en la descripcion del documento presentado para seguir la logica 
+#y buscar brindar el desarrollo del ejercicio
+
+#                                \\\  Elaborado por Nicolas Ballesteros ///
+
+# se definieron variables para realizar las operaciones siguiendo la estructura logica del ejercicio
+
 def afd_problema2(cadena):
     """
     AFD para el lenguaje:
     - Número de 'a' par.
     - No debe contener la subcadena 'bc'.
     """
-
+# se sigue la descripcion a detalle de acuerdo al documento
     # Estados representados como tuplas: (paridad_a, ultimo_simbolo)
     # paridad_a: "par" o "impar"
     # ultimo_simbolo: "nulo", "a", "b", "c"

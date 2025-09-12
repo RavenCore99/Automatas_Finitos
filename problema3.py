@@ -1,3 +1,10 @@
+#Problema #3 // utiliando el metodo por Automatas Finitos Deterministas (AFD)
+#se desarrollo basandonos en la descripcion del documento presentado para seguir la logica 
+#y buscar brindar el desarrollo del ejercicio
+
+#                                \\\  Elaborado por Nicolas Ballesteros ///
+
+
 def verificar_cadena(cadena):
     # Contadores
     num_0 = cadena.count("0")

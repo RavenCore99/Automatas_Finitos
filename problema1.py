@@ -1,3 +1,9 @@
+#Problema #1 // utiliando el metodo por Automatas Finitos Deterministas (AFD)
+#se desarrollo basandonos en la descripcion del documento presentado para seguir la logica 
+#y buscar brindar el desarrollo del ejercicio
+
+#                                \\\  Elaborado por Nicolas Ballesteros ///
+
 class AFD:
     def __init__(self):
         # Estados
@@ -71,3 +77,4 @@ if __name__ == "__main__":
         else:
             print(f"\n❌ La cadena '{cadena}' NO es aceptada en el lenguaje.\n")
 
+# Se expresaron con sumbolos como emojis para expresar el resultado de una forma mas visible para el usuario.
